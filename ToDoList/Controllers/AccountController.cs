@@ -186,7 +186,7 @@ namespace ToDoList.Controllers
             return View();
         }
 
-        [HttpPost] // rato ar gadaagdo login ze maca
+        [HttpPost] 
         public ActionResult ResetPassword(ResetPasswordViewModel resetPasswordViewModel)
         {
 
